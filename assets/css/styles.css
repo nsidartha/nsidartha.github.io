@@ -1,0 +1,60 @@
+body{
+   
+}
+header{
+    background-color: #3c415e;
+    color: aliceblue;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 60px;
+}
+
+.header{
+   
+}
+.leftlogo{
+    text-align: center;
+    float: left;
+    padding-top: 20px;
+    position: absolute;
+    left: 18%;
+    background: #738598;
+}
+.rightnav{
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;
+    position: absolute;
+    right: 15%;
+}
+.leftlogoh1{
+    width: 200px;
+    height: 40px;
+    font-size: 10px;
+}
+
+.contactme{
+    margin: 0px;
+    padding-left: 20px;
+    text-align: left;
+    background-color: #E0E0E0;
+}
+section{}
+footer{}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+section{
+    text-align: center;
+    background-color: #E0E0E0;
+}
+a{
+    color: aliceblue;
+}
