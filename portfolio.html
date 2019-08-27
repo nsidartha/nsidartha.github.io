@@ -4,31 +4,138 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Sid's portfolio</title>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Comfortaa|Merriweather|Rajdhani&display=swap"
       rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css"
+    />
+    <title>Sid Nelakuditi | Full Stack Developer</title>
   </head>
   <body>
+    <!-- Header Start -->
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link" href="index.html"
+              >Home</a
+            >
+            <a
+              class="flex-sm-fill text-sm-center nav-link active"
+              href="portfolio.html"
+              >Portfolio</a
+            >
+            <a class="flex-sm-fill text-sm-center nav-link" href="about.html"
+              >About</a
+            >
+          </nav>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+    <!-- Header End -->
+    <!-- Portfolio display Start -->
     <header>
-      <div class="leftlogo">
-        <h1 class="leftlogoh1">Sid Nelakuditi</h1>
-      </div>
-      <div class="rightnav">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </header>
+        <h1>My Portfolio</h1>
+      </header>
+    <Div class="wrapper">
 
-    <section>
-      <h1>My Portfolio</h1>
-      <hr />
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" id="project1" uk-grid>
+          <div class="uk-card-media-left uk-cover-container">
+              <img src="assets/images/Jukebox.jpg" alt="" uk-cover>
+              <canvas width="600" height="400"></canvas>
+          </div>
+          <div>
+              <div class="uk-card-body">
+                  <h3 class="uk-card-title">PARALLEL</h3>
+                  <p>A music player that you can use at a party to play your music with visuals.</p>
+                  <a class="btn btn-primary" href="https://nsidartha.github.io/PARALLEL/" role="button">Learn More</a>
+              </div>
+          </div>
+      </div>
       
-    </section>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" id="project2" uk-grid>
+          <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+              <img src="assets/images/Trivia.jpg" alt="" uk-cover>
+              <canvas width="600" height="400"></canvas>
+          </div>
+          <div>
+              <div class="uk-card-body">
+                  <h3 class="uk-card-title">Game Trivia</h3>
+                  <p>A Trivia game where you have to chose the right answer from given options.</p>
+                  <a class="btn btn-primary" href="https://nsidartha.github.io/Trivia-Game/" role="button">Learn More</a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" id="project3" uk-grid>
+          <div class="uk-card-media-left uk-cover-container">
+              <img src="assets/images/Pokemon.jpg" alt="" uk-cover>
+              <canvas width="600" height="400"></canvas>
+          </div>
 
-    <footer></footer>
+          <div>
+              <div class="uk-card-body">
+                  <h3 class="uk-card-title">Name That Pokemon!</h3>
+                  <p>A game where you have to guess the pokemon from original 150 pokemonm and it will tell you if you are right or worng.</p>
+                  <a class="btn btn-primary" href="https://nsidartha.github.io/NameThatPokemon/" role="button">Learn More</a>
+              </div>
+          </div>
+      </div>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" id="project4" uk-grid>
+          <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+              <img src="assets/images/Train.jpg" alt="" uk-cover>
+              <canvas width="600" height="400"></canvas>
+          </div>
+          <div>
+              <div class="uk-card-body">
+                  <h3 class="uk-card-title">Train Time!</h3>
+                  <p>An app, where you enter train time to the fourm, it will then store it to the database and retrive it back.</p>
+                  <a class="btn btn-primary" href="https://nsidartha.github.io/traintime/" role="button">Learn More</a>
+              </div>
+          </div>
+      </div>
+    </Div>
+    <footer>
+        <a class="uk-link-reset" href="#">More About Me</a>
+      </footer>
+    <!-- Portfolio display End -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
   </body>
 </html>

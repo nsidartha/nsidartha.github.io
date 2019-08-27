@@ -4,37 +4,105 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Sid's contact information</title>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Comfortaa|Merriweather|Rajdhani&display=swap"
       rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css"
+    />
+    <title>Sid Nelakuditi | Full Stack Developer</title>
   </head>
   <body>
-    <header>
-      <div class="leftlogo">
-        <h1 class="leftlogoh1">Sid Nelakuditi</h1>
+    <!-- Header Start -->
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link" href="index.html"
+              >Home</a
+            >
+            <a
+              class="flex-sm-fill text-sm-center nav-link"
+              href="portfolio.html"
+              >Portfolio</a
+            >
+            <a
+              class="flex-sm-fill text-sm-center nav-link active"
+              href="about.html"
+              >About</a
+            >
+          </nav>
+        </div>
       </div>
-      <div class="rightnav">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </header>
-    <div class="contactme">
-      <h1>Contact Me</h1>
-      <hr />
-      <form action="index.html">
-        <label for="">Your Name:</label><br />
-        <input type="text" /><br />
-        <label for="">Your Email:</label><br />
-        <input type="email" name="" id="" /><br />
-        <label for="">Your Message:</label><br />
-        <textarea name="" id="" cols="30" rows="10"></textarea><br />
-      </form>
+      <nav class="navbar navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
     </div>
-
-    <footer></footer>
+    <!-- Header End -->
+    <!--About Me Starts-->
+    <header>
+      <h1>About Me</h1>
+    </header>
+    <Div class="wrapper">
+      <div
+        class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin"
+        id="aboutmeLine1"
+        uk-grid
+      >
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="assets/images/profile.png" alt="" uk-cover />
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <h3 class="uk-card-title"></h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Deleniti illum saepe officiis quam vel odit,
+              ducimus et consectetur velit voluptates sint amet cumque
+              laboriosam! Inventore distinctio cum obcaecati delectus expedita.
+            </p>
+          </div>
+        </div>
+      </div>
+    </Div>
+    <footer>
+      <a class="uk-link-reset" href="#">More About Me</a>
+    </footer>
+    <!--About Me Ends-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
   </body>
 </html>
