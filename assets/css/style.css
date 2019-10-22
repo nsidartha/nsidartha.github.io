@@ -5,6 +5,8 @@
     background-color: 
     #fff1c1;
     text-align: center;
+    padding-bottom: 50vh;
+    padding-top: 50vh;
 }
 #name{
 font-family: 'Oswald', sans-serif;
@@ -33,17 +35,20 @@ footer{
 
 /* projects */
 #project1{
-    background-color: #042f4b;
+    background-color: #216583;
     
 }
 #project2{
-    background-color: #293462;
+    background-color: #f76262;
 }
 #project3{
     background-color: #216583;
 }
 #project4{
     background-color: #f76262;
+}
+#project5{
+    background-color: #216583;
 }
 .uk-card-body{
     color: white;
@@ -55,4 +60,7 @@ h3.uk-card-title{
 #aboutmeLine1{
     background-color: #293462;
     text-align: center;
+}
+#icons{
+    padding-right: 15px;
 }
